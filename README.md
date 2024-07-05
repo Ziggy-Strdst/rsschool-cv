@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ziggy-strdst.github.io/rsschool-cv/
