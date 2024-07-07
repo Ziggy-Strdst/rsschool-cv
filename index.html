@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vadim Polovinko CV</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Vadim Polovinko cv</h1>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vadim Polovinko CV</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container header__body">
+			<nav>
+				<ul class="header__list">
+					<li class="header__item">
+						<a href="#contacts" class="header__link">Contacts Info</a>
+					</li>
+					<li class="header__item">
+						<a href="#about" class="header__link">About me</a>
+					</li>
+					<li class="header__item">
+						<a href="#skills" class="header__link">Skills</a>
+					</li>
+					<li class="header__item">
+						<a href="#examples" class="header__link">Code examples</a>
+					</li>
+					<li class="header__item">
+						<a href="#experience" class="header__link">Experience</a>
+					</li>
+					<li class="header__item">
+						<a href="#education" class="header__link">Education</a>
+					</li>
+					<li class="header__item">
+						<a href="#languages" class="header__link">Languages</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<section class="hero">
+				<h1 class="hero__title">Vadim Polovinko</h1>
+				<img class="hero__img" src="assets/ava.jpeg" alt="My photo">
+			</section>
+
+			<div class="main__container">
+				<section class="contacts section" id="contacts">
+					<h2 class="contacts__title h2-title">Contacts Info</h2>
+					<ul class="section__list">
+						<li class="section__item">
+							Email:
+							<a href="mailto:vadimpolovinko89@gmail.com" class="section__item-link">vadimpolovinko89@gmail.com</a>
+						</li>
+						<li class="section__item">
+							GitGub:
+							<a href="https://github.com/Ziggy-Strdst" target="_blank" class="section__item-link">Ziggy-Strdst</a>
+						</li>
+						<li class="section__item">
+							Telegram:
+							<a href="https://t.me/vadim_polovinko" class="section__item-link">@vadim_polovinko</a>
+						</li>
+					</ul>
+				</section>
+				<section class="about section" id="about">
+					<h2 class="about__title h2-title">About me</h2>
+					<p class="about__text">I spend most of my life on the web and that's why I decided to get into development.
+						For
+						the last year I've been creating websites for the company and I like it very much.</p>
+				</section>
+				<section class="skills section" id="skills">
+					<h2 class="skills__title h2-title">Skills</h2>
+					<ul class="section__list">
+						<li class="section__item">JS CSS HTML</li>
+						<li class="section__item">Git</li>
+						<li class="section__item">React (a little bit)</li>
+					</ul>
+				</section>
+				<section class="examples section" id="examples">
+					<h2 class="examples__title h2-title">Code examples</h2>
+					<!-- <pre class="pre"> -->
+					<code class="code">
+						for (i = 0; i > 0; i++) { 
+							console.log("Don't repeat my code") 
+						};
+						</code>
+					<!-- </pre> -->
+				</section>
+				<section class="experience section" id="experience">
+					<h2 class="experience__title h2-title">Experience</h2>
+					<ul class="section__list">
+						<li class="section__item">
+							<a href="https://rassvet.help" target="_blank" class="section__link">https://rassvet.help</a>
+						</li>
+						<li class="section__item">
+							<a href="https://chin-chin-auto.ru" target="_blank" class="section__link">https://chin-chin-auto.ru</a>
+						</li>
+					</ul>
+				</section>
+				<section class="education section" id="education">
+					<h2 class="education__title h2-title">Education</h2>
+					<ul class="section__list">
+						<li class="section__item">Don State Technical University</li>
+						<li class="section__item">Some courses</li>
+					</ul>
+				</section>
+				<section class="languages section" id="languages">
+					<h2 class="languages__title h2-title">Languages</h2>
+					<ul class="section__list">
+						<li class="section__item">English: Pre intermediate</li>
+						<li class="section__item">Russian: Native</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container footer__body">
+			<div class="footer__copy">
+				© 2024
+				<a href="https://github.com/Ziggy-Strdst" target="_blank" class="footer__link-git">Ziggy-Strdst</a>
+			</div>
+			<a href="https://rs.school/courses/javascript-ru" target="_blank" class="school__link">
+				<img class="school__img" src="assets/logo-rsschool.png" alt="rsschool logo">
+			</a>
+		</div>
+	</footer>
+</body>
+
 </html>
